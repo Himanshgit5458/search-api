@@ -53,5 +53,5 @@ setuptools==65.5.0
 six==1.16.0
 tzdata==2023.3
 urllib3==1.26.16
-Werkzeug==2.3.6
+Werkzeug==2.2.3
 yarg==0.1.9
