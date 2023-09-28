@@ -5,6 +5,9 @@ This Python script is a custom Google search tool that leverages the SerpApi ser
 
 ![Google Search Tool Demo](demo.gif)
 
+![image](https://github.com/Himanshgit5458/search-api/assets/96855684/5b1e7296-63b9-457b-b44a-1486d3582fa3)
+
+
 ## Features
 - User-friendly command-line interface for inputting search parameters.
 - Utilizes the SerpApi service to perform Google searches.
