@@ -1,19 +1,22 @@
-# search-api
-
-# Google Search Tool README
+# Google Search Tool using SerpApi
 
 ## Overview
-This is a custom Google search tool that allows users to input search parameters such as Country, City, and Device, and then retrieves important information from sponsored ads, including Headlines and Descriptions. The tool exports this information into a compatible CSV format for further analysis.
+This Python script is a custom Google search tool that leverages the SerpApi service to retrieve sponsored ad information based on user-defined parameters such as country, city, and device type. It then exports the ad data to a CSV file for further analysis.
+
+![Google Search Tool Demo](demo.gif)
 
 ## Features
-- User-friendly interface for inputting search parameters.
-- Retrieval of sponsored ad information.
-- Export of ad data in CSV format.
+- User-friendly command-line interface for inputting search parameters.
+- Utilizes the SerpApi service to perform Google searches.
+- Extracts sponsored ad information, including headlines and descriptions.
+- Exports ad data to a CSV file for easy analysis.
 
 ## Prerequisites
+Before using this tool, ensure that you have the following prerequisites installed:
+
 - Python 3.x
-- Google Search API key (replace with your API key)
-- Required Python packages (listed in requirements.txt)
+- Required Python packages listed in `requirements.txt`
+- A SerpApi API key (sign up at [SerpApi](https://serpapi.com/))
 
 ## Getting Started
 1. Clone the repository:
